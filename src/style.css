@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex; 
+    background-color: #0e1217; 
+    align-items: center; 
+    flex-direction: column;
+    color:#f2f2f2;
+    padding-top: 10px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.tiktaktoe {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 0; 
+}
+
+.cell {
+    width: 150px;
+    height: 150px;  
+    border: 1px solid rgb(70, 68, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
